@@ -1,0 +1,11 @@
+def lengthoflastword(a):
+    count=0
+    x=a.strip()
+    for i in range(len(x)):
+        if x[i]==" ":
+            count=0
+        else:
+            count+=1
+    return count
+inp=" 45&29 8*6^4"
+print("The length of last word is",lengthoflastword(inp))
